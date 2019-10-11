@@ -10,6 +10,7 @@ print(rainbow)
 
 #list끼리 연결하기
 list2 = rainbow + rainbow
+list2.extend(rainbow)
 print(list2)
 
 #list안에 특정 값 있는지 검색
